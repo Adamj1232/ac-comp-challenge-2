@@ -1,0 +1,223 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #EFEFEF;
+    font-family: sans-serif;
+}
+
+header {
+  margin: 0;
+  height: 180px;
+  padding-top: 10px;
+  background-color: #2B2B2B;
+}
+
+
+li {
+  vertical-align: middle;
+  display:inline-block;
+  list-style: none;
+  margin: 25px 30px;
+  color: #ffffff;
+}
+ul {
+  display: inline;
+}
+
+h1 {
+  color: #2B2B2B;
+  margin: 40px 20px;
+  font-size: 2.5em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article {
+  height: 400px;
+  width: 275px;
+  margin-bottom: 10px;
+}
+
+
+.login {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+.headerbtn {
+  width: 30px;
+  vertical-align: middle;
+  background: none;
+  margin-right: 10px;
+}
+
+.headerbtn:hover{
+  -webkit-filter: hue-rotate(240deg) saturate(3.3);
+}
+
+.party {
+  width:40px;
+  margin-bottom: 5px;
+}
+
+
+.userName {
+  text-align: right;
+  margin: 0px 20px 60px 0px;
+  color: #28A7E9;
+}
+
+.downArrow {
+  vertical-align: middle;
+  width: 30px;
+}
+
+.logo {
+  width:160px;
+  float: right;
+  transform: rotate(-17deg);
+  margin-right: 20px;
+}
+
+.next {
+  width: 70px;
+  display: inline;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px 1px #888888;
+}
+
+.card1 {
+  background: url(images/alec-baldwin-snl.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card2 {
+  background: url(images/belushi.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.card3 {
+  background: url(images/bill-hader.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card4 {
+  background: url(images/chris-farley.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.card5 {
+  background: url(images/dan-akroyd.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card6 {
+  background: url(images/dana-carvey.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card7 {
+  background: url(images/leslie-jones.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card8 {
+  background: url(images/will-ferrell.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.cardtop {
+  background-size: cover;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+  width:275px;
+  height: 150px;
+}
+
+.cardtop:hover {
+  background-color: transparent;
+}
+
+.cardbottom {
+  padding: 15px;
+}
+/*.cardbottom p {
+  margin: 0px;
+}*/
+.views {
+  text-align:center;
+  margin: 0px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.count {
+  text-align:center;
+  margin-top: 15px;
+  font-size: 36px;
+  color: #ffffff;
+  line-height:0px;
+}
+
+span {
+  float:right;
+  margin: 10px;
+}
+
+.urlSpan {
+  background-color: #EFEFEF;
+  height: 40px;
+  width: 92%;
+  margin: 15px 0px 15px 0px;
+  padding: 10px;
+  font-size: 14px;
+  color: #8E8E8E
+  /*font-size: 12px;*/
+}
+
+.name {
+  color: #616161;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.date {
+  color: #929292;
+  font-size: 12px;
+  margin:0px;
+}
+
+.play {
+  font-size: 12px;
+  color: #616161;
+  margin: 0px;
+}
+
+.playName {
+  font-size: 18px;
+  color: #616161;
+  margin: 0px;
+}
+
+.shows {
+  color: #616161;
+  font-size: 12px;
+  margin: 15px 0px 0px 0px;
+}
+
+.showNum {
+  color: #28A7E9;
+  font-size: 32px;
+  margin: 0px;
+}
