@@ -39,9 +39,9 @@ h1 {
 }
 
 article {
-  height: 400px;
-  width: 275px;
-  margin-bottom: 10px;
+  height: 430px;
+  width: 320px;
+  margin-bottom: 25px;
 }
 
 
@@ -68,7 +68,6 @@ article {
   margin-bottom: 5px;
 }
 
-
 .userName {
   text-align: right;
   margin: 0px 20px 60px 0px;
@@ -81,7 +80,7 @@ article {
 }
 
 .logo {
-  width:160px;
+  width:190px;
   float: right;
   transform: rotate(-17deg);
   margin-right: 20px;
@@ -141,7 +140,7 @@ article {
   background-size: cover;
   background-color: #4f4e4e;
   background-blend-mode: overlay;
-  width:275px;
+  width:100%;
   height: 150px;
 }
 
@@ -150,11 +149,9 @@ article {
 }
 
 .cardbottom {
-  padding: 15px;
+  padding: 25px;
 }
-/*.cardbottom p {
-  margin: 0px;
-}*/
+
 .views {
   text-align:center;
   margin: 0px;
@@ -179,7 +176,7 @@ span {
   background-color: #EFEFEF;
   height: 40px;
   width: 92%;
-  margin: 15px 0px 15px 0px;
+  margin: 25px 0px 25px 0px;
   padding: 10px;
   font-size: 14px;
   color: #8E8E8E
@@ -213,11 +210,69 @@ span {
 .shows {
   color: #616161;
   font-size: 12px;
-  margin: 15px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
 .showNum {
   color: #28A7E9;
   font-size: 32px;
   margin: 0px;
+}
+
+@media screen and (max-width: 780px) {
+  .logo {
+    width:160px;
+    horizontal
+    vertical-align: middle;
+    transform: rotate(-17deg);
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:90px;
+    margin:auto;
+}
+
+  .userName {
+    margin-bottom: 10px;
+  }
+  ul {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+  }
+  li {
+    margin: 5px 20px;
+    float: right;
+    bottom: 0;
+  }
+  header {
+    position: relative;
+  }
+
+  .party {
+    margin-bottom:0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  ul {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .headerbtn {
+    margin-right: 0px;
+  }
+
+  .userName {
+    text-align: left;
+  }
 }
