@@ -275,4 +275,8 @@ span {
   .userName {
     text-align: left;
   }
+
+  article {
+    width: 280px;
+  }
 }
