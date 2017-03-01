@@ -59,9 +59,10 @@ article {
   margin-right: 10px;
 }
 
-.headerbtn:hover{
-  -webkit-filter: hue-rotate(240deg) saturate(3.3);
-}
+/*.headerbtn:hover{
+  background-color: #00f7ef;
+  background-blend-mode: multiply;
+}*/
 
 .party {
   width:40px;
@@ -222,7 +223,6 @@ span {
 @media screen and (max-width: 780px) {
   .logo {
     width:160px;
-    horizontal
     vertical-align: middle;
     transform: rotate(-17deg);
     display:block;
@@ -268,6 +268,10 @@ span {
     font-size: 12px;
   }
 
+  article {
+    width: 280px;
+  }
+
   .headerbtn {
     margin-right: 0px;
   }
@@ -276,7 +280,4 @@ span {
     text-align: left;
   }
 
-  article {
-    width: 280px;
-  }
 }
